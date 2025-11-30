@@ -1,0 +1,3 @@
+PLAYER: scripts/MeritsOfService/player.lua
+
+MENU: scripts/MeritsOfService/settingsMenu.lua

@@ -1,0 +1,16 @@
+# name needs to match the quest prefix
+name: mages guild
+attributes:
+  - intelligence
+  - willpower
+skills:
+  - alchemy
+  - alteration
+  - destruction
+  - enchant
+  - illusion
+  - mysticism
+
+# -- https://en.uesp.net/wiki/Tamriel_Rebuilt:Factions
+# -- https://en.uesp.net/wiki/Project_Tamriel:Skyrim/Factions
+# -- https://en.uesp.net/wiki/Project_Tamriel:Cyrodiil/Factions

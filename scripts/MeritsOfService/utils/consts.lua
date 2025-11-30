@@ -1,0 +1,1 @@
+Factions = require("scripts.MeritsOfService.factionParser")
