@@ -1,8 +1,9 @@
-# name needs to match the quest prefix
+# name must match the beginning of quest's name
 name: mages guild
 attributes:
   - intelligence
   - willpower
+# check consts.lua for values
 skills:
   - alchemy
   - alteration

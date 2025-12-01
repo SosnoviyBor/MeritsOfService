@@ -2,7 +2,7 @@ local I = require('openmw.interfaces')
 
 I.Settings.registerPage {
     key = 'MeritsOfService',
-    l10n = 'MeritsOfService_settings',
+    l10n = 'MeritsOfService',
     name = 'page_name',
     description = 'page_description',
 }
@@ -12,14 +12,13 @@ I.Settings.registerGroup {
     page = 'MeritsOfService',
     l10n = 'MeritsOfService',
     name = 'rewards_groupName',
-    description = 'rewards_groupDescription',
+    description = 'rewards_groupDesc',
     permanentStorage = true,
     order = 1,
     settings = {
         {
             key = 'questsPerReward',
             name = 'questsPerReward_name',
-            description = 'questsPerReward_description',
             renderer = 'number',
             integer = true,
             default = 3,
@@ -28,7 +27,6 @@ I.Settings.registerGroup {
         {
             key = 'minSkillReward',
             name = 'minSkillReward_name',
-            description = 'minSkillReward_description',
             renderer = 'number',
             integer = true,
             default = 3,
@@ -37,7 +35,6 @@ I.Settings.registerGroup {
         {
             key = 'maxSkillReward',
             name = 'maxSkillReward_name',
-            description = 'maxSkillReward_description',
             renderer = 'number',
             integer = true,
             default = 5,
@@ -46,7 +43,6 @@ I.Settings.registerGroup {
         {
             key = 'minAttributeReward',
             name = 'minAttributeReward_name',
-            description = 'minAttributeReward_description',
             renderer = 'number',
             integer = true,
             default = 2,
@@ -55,7 +51,6 @@ I.Settings.registerGroup {
         {
             key = 'maxAttributeReward',
             name = 'maxAttributeReward_name',
-            description = 'maxAttributeReward_description',
             renderer = 'number',
             integer = true,
             default = 3,
@@ -64,7 +59,6 @@ I.Settings.registerGroup {
         {
             key = 'skillRewardWeight',
             name = 'skillRewardWeight_name',
-            description = 'skillRewardWeight_description',
             renderer = 'number',
             integer = false,
             default = 1,
@@ -73,7 +67,6 @@ I.Settings.registerGroup {
         {
             key = 'attributeRewardWeight',
             name = 'attributeRewardWeight_name',
-            description = 'attributeRewardWeight_description',
             renderer = 'number',
             integer = false,
             default = 1,
@@ -89,7 +82,18 @@ I.Settings.registerGroup {
         {
             key = 'carrySkillXp',
             name = 'carrySkillXp_name',
-            description = 'carrySkillXp_description',
+            renderer = 'checkbox',
+            default = true,
+        },
+        {
+            key = 'capSkills',
+            name = 'capSkills_name',
+            renderer = 'checkbox',
+            default = true,
+        },
+        {
+            key = 'capAttr',
+            name = 'capAttr_name',
             renderer = 'checkbox',
             default = true,
         },

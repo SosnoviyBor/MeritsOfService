@@ -14,7 +14,7 @@ Each value is configurable.
 
 ### Retroactive Rewards
 
-If you install this mod mid-playthrough, you still can get all the rewards factions owe you. They are intentionally not granted by default, so you'd need to manually execute the script for it in the console.
+If you install this mod mid-playthrough, you still can get all the rewards factions owe you. **They are intentionally not granted by default**, so you'd need to manually execute the script for it in the console.
 
 1. Open Morrowind's console by pressing `~`
 2. Run `luap` command
@@ -39,14 +39,13 @@ If a mod adds it's own quest and it's name starts with a prefix for faction, it 
 - "Mages Guild: Missing Khajiit" - would count towards MG quest count
 - "Missing Khajiit" - won't count towards anything
 
-Patches for modded factions which follow this naming convention can also be added by creating it's own .yaml file in `MoS_Factions` folder.
-
-Mod also can register individual mods to be associated with a certain faction via MoS' interfaces. Check `FOR_MODDERS.md` for more details.
+You can also register individual mods to be associated with a certain faction by creating faction sheets. Check `FOR_MODDERS.md` for more details.
 
 ### Supported quest mods
 
 - TR, SHotN, PC by Project Tamriel
 - [Astrologian's Guild](https://www.nexusmods.com/morrowind/mods/51216) by Billyfighter
+- [The War for the Vvardenfell Brotherhood](https://www.nexusmods.com/morrowind/mods/47314) and [Morrowind Extended Cut](https://www.nexusmods.com/morrowind/mods/55615) by Caeris
 
 ### Compatible leveling mods
 
@@ -54,7 +53,7 @@ Mod also can register individual mods to be associated with a certain faction vi
 
 ## Consider also
 
-- [Morrowind Quests Redux](https://www.nexusmods.com/morrowind/mods/54060) by Killdozery - Improves quest rewards while being very compatible and lightweight mod.
+- [Morrowind Quests Redux](https://www.nexusmods.com/morrowind/mods/54060) by Killdozery - Improves quest rewards while being a very compatible and lightweight mod.
 
 ## Credits
 
