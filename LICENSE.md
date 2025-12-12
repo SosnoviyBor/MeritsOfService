@@ -1,13 +1,26 @@
-            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-                    Version 2, December 2004
+# Preamble
 
- Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+By ancient rites, this code is bound,
+No mortal hand may twist it 'round.
 
- Everyone is permitted to copy and distribute verbatim or modified
- copies of this license document, and changing it is allowed as long
- as the name is changed.
+# Terms of Use
 
-            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+Permission granted: to mend and make,
+To copy, share, for spirit's sake.
+Yet mark: no coin, no profit gained,
+Shall taint this magic, unrestrained.
 
-  0. You just DO WHAT THE FUCK YOU WANT TO.
+# Disclaimer
+
+Provided "as is," without a truth,
+No crone will blame, if ill, forsooth.
+
+# Enforcement
+
+The pact by moonlight, strongly spun,
+Binds souls if greed hath now been won.
+
+# Cost
+
+The threads are spun, the spell complete,
+No greed, lest curses, you shall meet.
