@@ -78,16 +78,16 @@ _In case some mod adds a questline for them._
 **Other Mods**
 
 - Astrologians Guild from [Astrologian's Guild](https://www.nexusmods.com/morrowind/mods/51216) by Billyfighter
-- Vvardenfell Brotherhood from [The War for the Vvardenfell Brotherhood](https://www.nexusmods.com/morrowind/mods/47314) / [Morrowind Extended Cut](https://www.nexusmods.com/morrowind/mods/55615) by Caeris
+- Vvardenfell Brotherhood from [The War for the Vvardenfell Brotherhood](https://www.nexusmods.com/morrowind/mods/47314) (part of the [Morrowind Extended Cut](https://www.nexusmods.com/morrowind/mods/55615)) by Caeris
 
 **Incompatible Mods**  
 _Because quest name convention is not followed._
 
 - [Barristers Guild - Old Ebonheart Questline](https://www.nexusmods.com/morrowind/mods/55995) by levanesque
+- [Camonna Tong - Puppet Master](https://www.nexusmods.com/morrowind/mods/50740) (part of the [Morrowind Extended Cut](https://www.nexusmods.com/morrowind/mods/55615)) by Caeris 
 
 **TODO tests**
 
-- [Camonna Tong - Puppet Master](https://www.nexusmods.com/morrowind/mods/50740)
 - [Guild of Vampire Hunters](https://www.nexusmods.com/morrowind/mods/45832)
 - [Imperial Knights Faction](https://www.nexusmods.com/morrowind/mods/50643)
 - [Join the Royal Guards](https://www.nexusmods.com/morrowind/mods/50676)
