@@ -10,6 +10,8 @@ I could also go on about how, most of the time, faction-favored skills don't cor
 
 Every 3 faction quests, the player is granted either **3-5 skill increases** or **2-3 attribute increases**, depending on the faction. And that's it.
 
+Except maybe 10% chance to get bonus Luck each attribute reward.
+
 Every value is configurable.
 
 ### Retroactive Rewards

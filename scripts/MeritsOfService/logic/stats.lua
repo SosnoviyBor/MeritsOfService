@@ -153,7 +153,6 @@ local function pickRewards(player, faction, rewardType, rewardAmount)
             local currStat = RewardTypeToHandler[rewardType][stat](player)
             local currReward = rewards[stat] or 0
 
-            print("Checking stat " .. stat .. ": " .. tostring(currStat.base) .. " + " .. tostring(currReward) .. " vs cap " .. tostring(caps[rewardType]))
             if currStat.base + currReward >= caps[rewardType] then
                 statList[stat] = nil
             end

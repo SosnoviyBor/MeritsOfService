@@ -37,7 +37,7 @@ I.Settings.registerGroup {
             name = 'attributeRewardWeight_name',
             renderer = 'number',
             integer = false,
-            default = 1,
+            default = 0.5,
             min = 0,
         },
     }

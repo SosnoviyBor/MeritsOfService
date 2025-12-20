@@ -5,9 +5,13 @@ function QuestFinished(questId, player)
 end
 
 function GetFactionName(factions, questId)
-    local questName = string.lower(core.dialogue.journal.records[questId].questName)
+    local questName = core.dialogue.journal.records[questId].questName
+
+    -- weird, but ok
+    if not questName then return nil end
+
     for factionName, _ in pairs(factions) do
-        if string.find(questName, "^" .. factionName) then
+        if string.find(string.lower(questName), "^" .. factionName) then
             return factionName
         end
     end
