@@ -93,7 +93,7 @@ _Because quest name convention is not followed._
 - [Join the Royal Guards](https://www.nexusmods.com/morrowind/mods/50676)
 - [Census and Excise Office Faction](https://www.nexusmods.com/morrowind/mods/46798)
 - [Imperial Employment Office (MD Edit)](https://www.nexusmods.com/morrowind/mods/53845)
-- [Imperial Bank (Faction - Quests - Banking - Share Trading)](https://web.archive.org/web/20250401062632/https://www.nexusmods.com/morrowind/mods/54889)
+- [Imperial Bank (Faction - Quests - Banking - Share Trading)](https://www.nexusmods.com/morrowind/mods/54889?tab=files&file_id=1000052511)
 - [The Guiding Guild - Dune Inspired Guild Guides](https://www.nexusmods.com/morrowind/mods/54750)
 - [The Imperial Dwemer Society](https://www.nexusmods.com/morrowind/mods/45225)
 - [Illuminated Order Improved](https://www.nexusmods.com/morrowind/mods/47414)
@@ -103,6 +103,10 @@ _Because quest name convention is not followed._
 - [Great House Dagoth](https://www.nexusmods.com/morrowind/mods/48200)
 - [The Arcane Watch -- FULL](https://www.nexusmods.com/morrowind/mods/54522)
 - [The Arcane Academy of Venarius](https://www.nexusmods.com/morrowind/mods/53675)
+- [Join the Dark Brotherhood - Dark Brotherhood Faction Mod](https://www.nexusmods.com/morrowind/mods/48858)
+- [Quarra Clan - Refreshed](https://www.nexusmods.com/morrowind/mods/48955)
+- [Quests for Clans and Vampire Legends (QCVL)](https://www.nexusmods.com/morrowind/mods/49486)
+- [OAAB Brother Junipers Twin Lamps](https://www.nexusmods.com/morrowind/mods/51424)
 
 ## Making Your Own Patches
 
