@@ -63,6 +63,6 @@ RewardTypeToHandler = {
 }
 
 LuckRewardTypes = {
-    replace = "Replace",
-    bonus   = "Bonus",
+    REPLACE = "Replace",
+    BONUS   = "Bonus",
 }

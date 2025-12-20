@@ -4,6 +4,7 @@ local storage = require("openmw.storage")
 
 require("scripts.MeritsOfService.utils.consts")
 require("scripts.MeritsOfService.utils.string")
+require("scripts.MeritsOfService.utils.random")
 
 local sectionGeneral = storage.playerSection("SettingsMeritsOfService_general")
 local sectionSkills = storage.playerSection("SettingsMeritsOfService_skills")
@@ -59,8 +60,12 @@ local function increaseAttrs(player, stats)
     for attrId, count in pairs(stats) do
         local attr = AttrNameToHandler[attrId](player)
 
-        -- luck reward roll
-        if math.random() <= sectionAttrs:get("luckRewardChance") then
+        -- luck reward roll - REPLACE
+        if sectionAttrs:get("luckRewardType") == LuckRewardTypes.REPLACE
+            and math.random() <= sectionAttrs:get("luckRewardChance")
+            and AttrNameToHandler.luck(player).base <= sectionAttrs:get("capAttr")
+        then
+            attrId = "luck"
             attr = AttrNameToHandler.luck(player)
         end
 
@@ -72,6 +77,17 @@ local function increaseAttrs(player, stats)
         -- update message
         msg = msg .. "Your " .. Capitalize(attrId) .. " increased to " .. tostring(attr.base) .. ".\n"
     end
+
+    -- luck reward roll - BONUS
+    if sectionAttrs:get("luckRewardType") == LuckRewardTypes.BONUS
+        and math.random() <= sectionAttrs:get("luckRewardChance")
+        and AttrNameToHandler.luck(player).base <= sectionAttrs:get("capAttr")
+    then
+        local attr = AttrNameToHandler.luck(player)
+        attr.base = attr.base + 1
+        msg = msg .. "Your Luck increased to " .. tostring(attr.base) .. ".\n"
+    end
+
     msg = msg:sub(1, -2) -- remove last newline
     player:sendEvent("ShowMessage", { message = msg })
     ambient.playSound("skillraise")
@@ -122,8 +138,8 @@ local function pickRewards(player, faction, rewardType, rewardAmount)
     -- init data for stat picking
     local rewards = {}
     local statList = {}
-    for t, name in pairs(faction[rewardType]) do
-        statList[t] = name
+    for i, name in ipairs(faction[rewardType]) do
+        statList[i] = name
     end
     local caps = {
         [SKILL_REWARD]     = sectionSkills:get("capSkills"),
@@ -133,11 +149,12 @@ local function pickRewards(player, faction, rewardType, rewardAmount)
     -- pick stats
     for _ = 1, rewardAmount do
         -- prune capped stats
-        for stat in pairs(statList) do
+        for _, stat in pairs(statList) do
             local currStat = RewardTypeToHandler[rewardType][stat](player)
             local currReward = rewards[stat] or 0
 
-            if currStat + currReward >= caps[rewardType] then
+            print("Checking stat " .. stat .. ": " .. tostring(currStat.base) .. " + " .. tostring(currReward) .. " vs cap " .. tostring(caps[rewardType]))
+            if currStat.base + currReward >= caps[rewardType] then
                 statList[stat] = nil
             end
         end

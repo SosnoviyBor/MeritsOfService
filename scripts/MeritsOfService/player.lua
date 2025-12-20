@@ -29,8 +29,7 @@ local function onLoad(saveData)
 end
 
 local function retroactiveUpdate()
-    -- TODO: test it
-    for questId, _ in ipairs(self.type.quests(self)) do
+    for questId, _ in pairs(self.type.quests(self)) do
         onQuestUpdate(questId, nil)
     end
 end

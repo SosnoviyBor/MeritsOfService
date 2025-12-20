@@ -135,7 +135,7 @@ I.Settings.registerGroup {
                     "Bonus",
                 },
             },
-            default = "Replace",
+            default = "Bonus",
         },
         {
             key = 'luckRewardChance',
