@@ -79,6 +79,7 @@ _In case some mod adds a questline for them._
 
 - Astrologians Guild from [Astrologian's Guild](https://www.nexusmods.com/morrowind/mods/51216) by Billyfighter
 - Vvardenfell Brotherhood from [The War for the Vvardenfell Brotherhood](https://www.nexusmods.com/morrowind/mods/47314) (part of the [Morrowind Extended Cut](https://www.nexusmods.com/morrowind/mods/55615)) by Caeris
+- Arcane Watch from [The Arcane Watch -- FULL](https://www.nexusmods.com/morrowind/mods/54522) by Glittergear
 
 **Incompatible Mods**  
 _Because quest name convention is not followed._

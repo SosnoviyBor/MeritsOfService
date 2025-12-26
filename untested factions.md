@@ -11,7 +11,6 @@
 - [Suran Underworld 3](https://www.nexusmods.com/morrowind/mods/40299)
 - [Dura gra-Bol's House Reclaimed - And the Grab-All Gang](https://www.nexusmods.com/morrowind/mods/46772)
 - [Great House Dagoth](https://www.nexusmods.com/morrowind/mods/48200)
-- [The Arcane Watch -- FULL](https://www.nexusmods.com/morrowind/mods/54522)
 - [The Arcane Academy of Venarius](https://www.nexusmods.com/morrowind/mods/53675)
 - [Join the Dark Brotherhood - Dark Brotherhood Faction Mod](https://www.nexusmods.com/morrowind/mods/48858)
 - [Quarra Clan - Refreshed](https://www.nexusmods.com/morrowind/mods/48955)
