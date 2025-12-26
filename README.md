@@ -34,89 +34,14 @@ There are already countless faction quest improvement, revamp, and overhaul mods
 **_It's 100% Lua._**  
 **_It's built different._**
 
-### Compatible With Everything
+### Compatible With Everything Out of the Box
 
 If a mod adds its own quest and the quest name starts with a faction prefix, it will be treated as a faction quest. For example:
 
 - "Mages Guild: Missing Khajiit" - counts toward Mages Guild quest progress
 - "Missing Khajiit" - does not count toward any faction
 
-### Out of the Box Supported Factions
-
-**Vanilla**
-
-- East Empire Company
-- Fighters Guild
-- House Hlaalu
-- House Redoran
-- House Telvanni
-- Imperial Cult
-- Imperial Legion
-- Mages Guild
-- Morag Tong
-- Thieves Guild
-- Tribunal Temple
-
-**Not Joinable Vanilla Factions**  
-_In case some mod adds a questline for them._
-
-- Census and Excise
-- Dark Brotherhood
-- Imperial Knights
-- Talos Cult
-- Camonna Tong
-- Twin Lamps
-
-**Project Tamriel Mods**
-
-- Ja-Natta Syndicate
-- Narsis Arena
-- Orlukh Clan
-- Kingdom of Anvil
-- Order of Itinerant Priests
-
-**Other Mods**
-
-- Astrologians Guild from [Astrologian's Guild](https://www.nexusmods.com/morrowind/mods/51216) by Billyfighter
-- Vvardenfell Brotherhood from [The War for the Vvardenfell Brotherhood](https://www.nexusmods.com/morrowind/mods/47314) (part of the [Morrowind Extended Cut](https://www.nexusmods.com/morrowind/mods/55615)) by Caeris
-- Arcane Watch from [The Arcane Watch -- FULL](https://www.nexusmods.com/morrowind/mods/54522) by Glittergear
-
-**Incompatible Mods**  
-_Because quest name convention is not followed._
-
-- [Barristers Guild - Old Ebonheart Questline](https://www.nexusmods.com/morrowind/mods/55995) by levanesque
-- [Camonna Tong - Puppet Master](https://www.nexusmods.com/morrowind/mods/50740) (part of the [Morrowind Extended Cut](https://www.nexusmods.com/morrowind/mods/55615)) by Caeris
-
-## Making Your Own Patches
-
-Faction patches are stored in the `./MoS_Factions` folder. Folder nesting is ignored and serves only a cosmetic purpose.
-
-Patch structure example:
-
-```yaml
-# name must match the beginning of the quest's name
-name: mages guild
-
-# check consts.lua for values
-attributes:
-  - intelligence
-  - willpower
-
-# check consts.lua for values
-skills:
-  - alchemy
-  - alteration
-  - destruction
-  - enchant
-  - illusion
-  - mysticism
-```
-
-Requirements for patch validation:
-
-- `name` field is required
-- File must contain at least 1 skill or attribute as a reward
-- Atributes and skills must match values defined in `scripts/utils/consts.lua` file
+**_No patching required._**
 
 ## Consider also
 

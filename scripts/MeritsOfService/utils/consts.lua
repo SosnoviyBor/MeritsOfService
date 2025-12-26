@@ -45,6 +45,7 @@ SkillNameToHandler = {
     unarmored   = skills.unarmored,
 }
 
+---@diagnostic disable-next-line: undefined-field
 local attrs = types.NPC.stats.attributes
 AttrNameToHandler = {
     strength     = attrs.strength,

@@ -11,7 +11,7 @@ function GetFactionName(factions, questId)
     if not questName then return nil end
 
     for factionName, _ in pairs(factions) do
-        if string.find(string.lower(questName), "^" .. factionName) then
+        if string.find(questName, "^" .. factionName .. ":") then
             return factionName
         end
     end
