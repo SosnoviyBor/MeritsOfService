@@ -4,6 +4,10 @@ local factions = {}
 
 local function populateFactions()
     for _, record in ipairs(core.factions.records) do
+        -- if factions[record.name] then
+        --     print("Duplicate faction record! " .. record.name)
+        -- end
+
         local attrs = {}
         for _, attr in ipairs(record.attributes) do
             table.insert(attrs, attr)
