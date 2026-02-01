@@ -4,26 +4,22 @@ local factions = {}
 
 local function populateFactions()
     for _, record in ipairs(core.factions.records) do
-        -- if factions[record.name] then
-        --     print("Duplicate faction record! " .. record.name)
-        -- end
-
-        local attrs = {}
-        for _, attr in ipairs(record.attributes) do
-            table.insert(attrs, attr)
+        -- dummy faction filter
+        if #record.attributes == 2
+            and record.attributes[1] == "strength"
+            and record.attributes[2] == "strength"
+        then
+            goto continue
         end
 
-        local skills = {}
-        for _, skill in ipairs(record.skills) do
-            table.insert(skills, skill)
-        end
-
-        if next(attrs) or next(skills) then
+        if record.attributes[1] or record.skills[1] then
             factions[record.name] = {
-                attributes = attrs,
-                skills = skills
+                attributes = record.attributes or {},
+                skills = record.skills or {}
             }
         end
+
+        ::continue::
     end
 end
 

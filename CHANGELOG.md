@@ -1,5 +1,12 @@
 # Merits of Service (OpenMW)
 
+## 2.1.1
+
+### Features
+
+- Added a dummy faction filter (ones which have two Strengths as favored attributes). Some of you shouldn't get Strength rewards for Mages Guild and Morag Tong quests anymore ;)
+- Improved mod's initialization speed
+
 ## 2.1
 
 ### Features
